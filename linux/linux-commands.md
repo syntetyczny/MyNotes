@@ -28,8 +28,13 @@ tmux attach -t 0
 and then you can use terminal as you left last time
 
 ## usefull linux commends
-To se actual system events
+To see actual system events
 ```
 dmesg -w
 ```
 it is usefull when you want to check if smth is actual interferencing started process.
+
+To see what type of linux we are currentlu using you can use
+```
+lsb_release -a
+```
