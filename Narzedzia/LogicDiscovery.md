@@ -1,0 +1,2 @@
+# Logic analyser based on STM32F4Discovery #
+Binarka zainstalowana z http://slemi.info/2018/03/26/stm32-logic-analyzer/ Plytka ustawiona wg http://translate.google.com/translate?sl=auto&tl=en&js=n&prev=_t&hl=en&ie=UTF-8&u=http%3A%2F%2Fhabrahabr.ru%2Fpost%2F165853%2F&act=url ze strony https://www.fussylogic.co.uk/blog/?p=1226
