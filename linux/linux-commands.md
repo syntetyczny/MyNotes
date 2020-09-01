@@ -1,3 +1,12 @@
+## picocom
+```
+picocom --b 115200 /dev/ttyUSB0
+```
+To exit, what is not so straight forward. It is much easier to use if you want to analysie stream of data comming from device.
+```
+ctrl+a
+ctrl+x
+```
 ## tmux
 To turn on tmux session
 ```
