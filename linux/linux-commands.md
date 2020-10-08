@@ -1,3 +1,22 @@
+## nano
+```
+nano -Acpil name_file.cpp
+```
+-A, --smarthome
+    Make the Home key smarter. When Home is pressed anywhere but at the very beginning of non-whitespace characters on a line, the cursor will jump to that beginning (either forwards or backwards). If the cursor is already at that position, it will jump to the true beginning of the line. 
+
+-c, --const
+    Constantly display the cursor position and line number on the statusbar. Note that this overrides -U. 
+
+-p, --preserve
+    Preserve the ^Q (XON) and ^S (XOFF) sequences so data being sent to the editor can be can be stopped and started. 
+
+-i, --autoindent
+    Automatically indent new lines to the same number of spaces and tabs as the previous line. 
+
+-l, --nofollow
+    When writing files, if the given file is a symbolic link, it is removed and a new file is created. 
+
 ## picocom
 ```
 picocom --b 115200 /dev/ttyUSB0
